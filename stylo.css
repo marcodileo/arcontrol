@@ -1,0 +1,203 @@
+body {
+  background: #fafafa;
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1rem;
+  overflow: hidden;
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+}
+.container {
+  margin-top: 7vh;
+  cursor: default;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 6vmax;
+  margin: 4vmin;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+h2, h3, h4 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: gray;
+  line-height: 140%;
+}
+h3 {
+  font-size: 2em;
+  margin:1rem;
+}
+h4 {
+  margin:1rem;
+  font-size: 1.3rem;
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.8s infinite;
+  -moz-animation: blink 0.8s infinite;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Director */
+@media screen and (max-height: 375px) {
+    .pulse {
+        display: none !important;
+    }
+}
+  .pulse {
+    position: absolute;
+    top: 40%;
+    left:50%;
+    margin-left:-20vh;    
+    width: 40vh;
+    height: 40vh;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+  }
+  .pulse0 {
+    transform: scale(.27);
+    background: #000;
+    z-index: 3;
+  }
+  .pulse1 {
+    border: 0.5rem solid #000;
+    -webkit-animation: pulse1 4s linear infinite;
+    -moz-animation: pulse1 4s linear infinite;
+    animation: pulse1 4s linear infinite;    
+  }
+  .pulse2 {
+    border: 0.5rem solid #000;
+    -webkit-animation: pulse2 4s linear infinite;
+    -moz-animation: pulse2 4s linear infinite;
+    animation: pulse2 4s linear infinite;    
+  }
+
+ /* moz */
+  @-moz-keyframes pulse1 {
+    0% { -moz-transform: scale(0); opacity: 0; }
+    20% { -moz-transform: scale(0); opacity: 0; }
+    40% { -moz-transform: scale(.1); opacity: .2; }
+    60% { -moz-transform: scale(.3); opacity: .4; }
+    100% { -moz-transform: scale(.5); opacity: 0; }
+  }
+
+  @-moz-keyframes pulse2 {
+    0% { -moz-transform: scale(0); opacity: 0; }
+    25% { -moz-transform: scale(.0); opacity: .7; }
+    40% { -moz-transform: scale(.2); opacity: .5; }
+    65% { -moz-transform: scale(.4); opacity: .3; }
+    100% { -moz-transform: scale(.6); opacity: 0; }
+  }
+  /* webkit */
+  @-webkit-keyframes pulse1 {
+    0% { -webkit-transform: scale(0); opacity: 0; }
+    20% { -webkit-transform: scale(0); opacity: 0; }
+    40% { -webkit-transform: scale(.1); opacity: .2; }
+    60% { -webkit-transform: scale(.3); opacity: .4; }
+    100% { -webkit-transform: scale(.5); opacity: 0; }
+  }
+
+  @-webkit-keyframes pulse2 {
+    0% { -webkit-transform: scale(0); opacity: 0; }
+    25% { -webkit-transform: scale(.0); opacity: .7; }
+    40% { -webkit-transform: scale(.2); opacity: .5; }
+    65% { -webkit-transform: scale(.4); opacity: .3; }
+    100% { -webkit-transform: scale(.6); opacity: 0; }
+  }
+/* End-Director */
+a:link {
+    color: black;
+  text-decoration: none;
+}
+a:visited {
+    color: black;
+  text-decoration: none;
+}
+.fas:hover, .fab:hover {
+    opacity: 1;
+  }
+.fas, .fab {
+  padding: 0.5rem;
+  opacity: 0.4;
+  }
+
+.social{
+  font-size:1.5rem;
+  padding-top:1.5rem;
+  padding-bottom:2rem;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.footer2 {
+  text-align: center;
+}
+.does {
+  line-height: 160%;
+  font-weight: 300;
+  margin-top: 0;
+  color: gray;
+}
+
+@media screen and (max-width: 375px) {
+  .does2 {
+        text-align: left;
+        margin-left: 18%;
+    }
+    h2 {
+  font-size: 3.5vh;
+}
+    h3 {
+  font-size: 4vh;
+}
