@@ -58,13 +58,13 @@ a:visited {
 .social{
   font-size:1.8rem;
   padding-top:1.5rem;
-  padding-bottom:4rem;
+  padding-bottom:2rem;
 }
 
 .footer {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 4rem;
   left: 0;
 }
 .footer2 {
