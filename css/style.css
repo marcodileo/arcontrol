@@ -168,7 +168,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#99fafafa', GradientType=0 ); /* IE6-9 */
 }
 .section-title {
-	padding: 25px 0 0 0;
+	padding: 25px 0 25px 0;
 }
 .intro H1 {
 	font-size: 60px;
