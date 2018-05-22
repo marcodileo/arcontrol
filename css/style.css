@@ -8,7 +8,7 @@ body, html {
 }
 @font-face {		
   font-family: 'CODE Bold';		
-  src: url('/fonts/fonts/CODE-Bold.otf');		
+  src: url('arcontrol.it/fonts/fonts/CODE-Bold.otf');		
  }
 h1 {
 	font-weight: 400;
