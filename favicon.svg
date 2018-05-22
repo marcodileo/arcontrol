@@ -6,19 +6,17 @@
 	.st0{fill:#231F20;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'MyriadPro-Bold';}
+	.st3{font-family:'Code-Bold';}
 	.st4{font-size:24.9428px;}
-	.st5{font-family:'Code-Bold';}
-	.st6{font-family:'Helvetica';}
-	.st7{font-size:23.3839px;}
+	.st5{font-family:'Helvetica';}
+	.st6{font-size:23.3839px;}
 </style>
 <title>Favicon</title>
 <rect x="-1.7" y="-1.7" class="st0" width="129.6" height="129.6"/>
 <g>
 	<path class="st1" d="M102.9,92.9c0,5.5-4.5,10-10,10H33.3c-5.5,0-10-4.5-10-10V33.3c0-5.5,4.5-10,10-10h59.6c5.5,0,10,4.5,10,10
-		V92.9z"/>
+		C102.9,33.3,102.9,92.9,102.9,92.9z"/>
 </g>
-<text transform="matrix(1 0 0 1 61.1494 71.2915)" class="st2 st3 st4">+</text>
-<text transform="matrix(1 0 0 1 29.8369 73.7544)" class="st2 st5 st4">Ar</text>
-<text transform="matrix(1 0 0 1 28.2764 96.6851)" class="st2 st6 st7">ctrl</text>
+<text transform="matrix(1 0 0 1 29.8369 73.7544)" class="st2 st3 st4">Ar</text>
+<text transform="matrix(1 0 0 1 28.2764 96.6851)" class="st2 st5 st6">ctrl</text>
 </svg>
