@@ -8,9 +8,9 @@ body, html {
 }
 @font-face {
     font-family: 'code_boldregular';
-    src: url('../fonts/code_bold-webfont.woff2') format('woff2'),
-	 url('../fonts/code_bold-webfont.ttf') format('truetype'),
-         url('../fonts/code_bold-webfont.woff') format('woff');
+    src: url('../fonts/fonts/code_bold-webfont.woff2') format('woff2'),
+	 url('../fonts/fonts/code_bold-webfont.ttf') format('truetype'),
+         url('../fonts/fonts/code_bold-webfont.woff') format('woff');
 }
 h1 {
 	font-weight: 400;
