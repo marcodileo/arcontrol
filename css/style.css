@@ -6,10 +6,14 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
-@font-face {		
-  font-family: 'CODE-Bold';		
-  src: url('arcontrol.it/fonts/fonts/CODE-Bold.otf') format("opentype");		
- }
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('code_bold-webfont.woff2') format('woff2'),
+         url('code_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 h1 {
 	font-weight: 400;
 }
