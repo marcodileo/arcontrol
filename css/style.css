@@ -6,6 +6,10 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+@font-face {
+  font-family: 'CODE Bold';
+  src: url('../fonts/CODE-Bold.otf');
+}
 h1 {
 	font-weight: 400;
 }
@@ -168,9 +172,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.9);
 }
-.intro .brand {
+.intro .brando {
 	color: #231F20;
 	font-weight: 700;
+	font-family: CODE Bold;
+}
+.intro .brand {
+	color: #231F20;
+	font-weight: 300;
 }
 .intro .intro-text p {
 	font-size: 18px;
