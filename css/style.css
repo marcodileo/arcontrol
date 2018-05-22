@@ -6,6 +6,10 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+@font-face {		
+  font-family: 'CODE Bold';		
+  src: url('/fonts/fonts/CODE-Bold.otf');		
+ }
 h1 {
 	font-weight: 400;
 }
