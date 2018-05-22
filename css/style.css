@@ -175,7 +175,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .intro .brando {
 	color: #231F20;
 	font-weight: 700;
-	font-family: CODE Bold;
+	font-family: "CODE Bold";
 }
 .intro .brand {
 	color: #231F20;
