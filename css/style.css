@@ -33,8 +33,9 @@ h3, h4 {
 }
 h5 {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 20px;
+	color: rgba(0,0,0,0.6);
 }
 p {
 	font-size: 15px;
@@ -198,7 +199,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
-	background: #fafafa;
+	background: #fff;
 }
 #services h4 {
 	color: #231F20;
@@ -217,15 +218,9 @@ header .intro-text {
 	border-radius: 50%;
 }
 /* About Section */
-#about {
+#vantaggi {
 	padding: 100px 0;
-	color: rgba(255,255,255,0.9);
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#20a6bb+0,25bad0+50 */
-	background: rgb(32,166,187); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(32,166,187,1) 0%, rgba(37,186,208,1) 50%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(32,166,187,1) 0%, rgba(37,186,208,1) 50%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(32,166,187,1) 0%, rgba(37,186,208,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a6bb', endColorstr='#231F20', GradientType=0 ); /* IE6-9 */
+	background: #fafafa;
 }
 #about h2 {
 	color: rgba(255,255,255,0.8);
@@ -243,7 +238,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a6bb', end
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
-	background: #fafafa;
+	background: #fff;
 }
 .categories {
 	padding-bottom: 30px;
