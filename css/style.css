@@ -499,13 +499,6 @@ color: #ccc;
 #footer p {
 	font-size: 13px;
 }
-#footer a {
-  font-family: 'Nunito', sans-serif;
-	color: #aaa;
-}
-#footer a:hover {
-	color: #fff;
-}
 
 .media-container {
 	position: relative;
