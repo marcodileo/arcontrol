@@ -491,6 +491,77 @@ color: #ccc;
 #contact .social i.fa:hover {
 	color: #fff;
 }
+/* Director */
+.director {
+        position: relative;
+    }
+@media screen and (max-height: 375px) {
+    .pulse {
+        display: none !important;
+    }
+}
+  .pulse {
+    position: absolute;
+    top: 40%;
+    left:50%;
+    margin-left:-20vh;    
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+  }
+  .pulse0 {
+    transform: scale(.27);
+    background: #000;
+    cursor:pointer;
+  }
+  .pulse1 {
+    border: 0.5rem solid #000;
+    -webkit-animation: pulse1 4s linear infinite;
+    -moz-animation: pulse1 4s linear infinite;
+    animation: pulse1 4s linear infinite;    
+  }
+  .pulse2 {
+    border: 0.5rem solid #000;
+    -webkit-animation: pulse2 4s linear infinite;
+    -moz-animation: pulse2 4s linear infinite;
+    animation: pulse2 4s linear infinite;    
+  }
+ /* moz */
+  @-moz-keyframes pulse1 {
+    0% { -moz-transform: scale(0); opacity: 0; }
+    20% { -moz-transform: scale(0); opacity: 0; }
+    40% { -moz-transform: scale(.1); opacity: .2; }
+    60% { -moz-transform: scale(.3); opacity: .4; }
+    100% { -moz-transform: scale(.5); opacity: 0; }
+  }
+  @-moz-keyframes pulse2 {
+    0% { -moz-transform: scale(0); opacity: 0; }
+    25% { -moz-transform: scale(.0); opacity: .7; }
+    40% { -moz-transform: scale(.2); opacity: .5; }
+    65% { -moz-transform: scale(.4); opacity: .3; }
+    100% { -moz-transform: scale(.6); opacity: 0; }
+  }
+  /* webkit */
+  @-webkit-keyframes pulse1 {
+    0% { -webkit-transform: scale(0); opacity: 0; }
+    20% { -webkit-transform: scale(0); opacity: 0; }
+    40% { -webkit-transform: scale(.1); opacity: .2; }
+    60% { -webkit-transform: scale(.3); opacity: .4; }
+    100% { -webkit-transform: scale(.5); opacity: 0; }
+  }
+  @-webkit-keyframes pulse2 {
+    0% { -webkit-transform: scale(0); opacity: 0; }
+    25% { -webkit-transform: scale(.0); opacity: .7; }
+    40% { -webkit-transform: scale(.2); opacity: .5; }
+    65% { -webkit-transform: scale(.4); opacity: .3; }
+    100% { -webkit-transform: scale(.6); opacity: 0; }
+  }
+/* End-Director */
 /* Footer Section*/
 #footer {
 	background: #231F20;
