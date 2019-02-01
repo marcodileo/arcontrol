@@ -122,6 +122,39 @@ ul, ol {
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 }
+.ar {
+  	display: inline-block;
+ 	margin-bottom: 0;
+  	line-height: 0;
+  	text-align: left;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	-ms-touch-action: manipulation;
+      	touch-action: manipulation;
+ 	-webkit-user-select: none;
+     	-moz-user-select: none;
+      	-ms-user-select: none;
+        user-select: none;
+  	border: 3px solid #231F20;
+  	border-radius: 15px;
+	height:200px;
+    	width:200px;
+	color: #231F20;
+	background-color: white;
+	padding: 17px;
+	margin: 0;
+}
+.intro .brando {
+	color: #231F20;
+	font-weight: 600;
+	font-family: "code_boldregular";
+	line-height: 0;
+}
+.intro .brand {
+	color: #231F20;
+	font-weight: 300;
+}
+
 .btn-default {
 	color: #231F20;
 	background-color: transparent;
@@ -175,15 +208,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.9);
-}
-.intro .brando {
-	color: #231F20;
-	font-weight: 700;
-	font-family: "code_boldregular";
-}
-.intro .brand {
-	color: #231F20;
-	font-weight: 300;
+	margin-top: 50px;
+	line-height: 0.9;
 }
 .intro .intro-text p {
 	font-size: 18px;
@@ -591,9 +617,6 @@ color: #ccc;
 
 /* Media Queries */
 @media (max-width: 1024px) {
-.intro H1 {
-	font-size: 42px;
-}
 header .intro-text {
 	padding-top: 100px;
 	padding-bottom: 100px;
