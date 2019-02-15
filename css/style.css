@@ -144,6 +144,12 @@ ul, ol {
 	padding: 17px;
 	margin: 0;
 }
+.pingiovani {
+	text-align:center;
+}
+.pingiovani img{
+	max-width:600px;
+}
 .intro .brando {
 	color: #231F20;
 	font-weight: 600;
@@ -153,14 +159,6 @@ ul, ol {
 .intro .brand {
 	color: #231F20;
 	font-weight: 300;
-}
-
-}
-#pingiovani {
-	text-align: center;
-}
-.pingiovani img{
-	max-width:600px;
 }
 
 .btn-default {
@@ -633,8 +631,9 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 }
-@media (max-width: 675px) {
+@media (max-width: 600px) {
 .pingiovani img{
+	max-height: 100%;
 	max-width:100%;
 }
 }
