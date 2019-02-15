@@ -156,12 +156,11 @@ ul, ol {
 }
 
 }
-.pingiovani {
+#pingiovani {
 	text-align: center;
 }
 .pingiovani img{
-	max-height: 60%;
-	max-width:60%;
+	max-width:600px;
 }
 
 .btn-default {
@@ -636,8 +635,6 @@ header .intro-text {
 }
 @media (max-width: 675px) {
 .pingiovani img{
-	max-height: 100%;
 	max-width:100%;
 }
 }
-
