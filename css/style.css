@@ -236,7 +236,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 120px 0 0 0;
+	padding: 100px 0 10 0;
 	background: #fff;
 }
 #services h4 {
@@ -257,7 +257,7 @@ header .intro-text {
 }
 /* About Section */
 #vantaggi {
-	padding: 100px 0;
+	padding: 100px 0 10 0;
 	background: #fafafa;
 }
 #about h2 {
