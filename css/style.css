@@ -236,7 +236,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 50px 0 10px 0;
+	padding: 100 0 10 0;
 	background: #fff;
 }
 #services h4 {
@@ -257,7 +257,7 @@ header .intro-text {
 }
 /* About Section */
 #vantaggi {
-	padding: 50px 0 10px 0;
+	padding: 100 0 10 0;
 	background: #fafafa;
 }
 #about h2 {
@@ -275,7 +275,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 50px 0 100px 0;
+	padding: 100 0 100 0;
 	background: #fff;
 }
 .categories {
@@ -444,7 +444,7 @@ img.img-circle.team-img {
 	-o-background-size: cover;
 }
 #contact .overlay {
-	padding: 50px 0 0 0;
+	padding: 100 0 0 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,fafafa+100&1+0,0.75+100 */
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
