@@ -150,6 +150,12 @@ ul, ol {
 .pingiovani img{
 	max-width:600px;
 }
+.iva {
+	text-align:center;
+	color: #fff;
+	font-weight: 400;
+	margin: 10px;
+}
 .intro .brando {
 	color: #231F20;
 	font-weight: 600;
