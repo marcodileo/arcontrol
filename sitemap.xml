@@ -6,6 +6,10 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://arcontrol.it/</loc>
-  <lastmod>2018-06-12</lastmod>
+  <lastmod>2019-02-17</lastmod>
+</url>
+<url>
+  <loc>http://arcontrol.it/en</loc>
+  <lastmod>2019-02-17</lastmod>
 </url>
 </urlset>
