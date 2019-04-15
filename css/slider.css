@@ -20,8 +20,8 @@
 .ba-slider {
     position: relative;
     overflow: hidden;
-    max-width:70%;
-    margin-left:15%;
+    max-width:60%;
+    margin-left:20%;
 }
 @media (max-width: 1200px) {
   .ba-slider {
