@@ -179,8 +179,8 @@ ul, ol {
 	border: 2px solid #231F20;
 	padding: 12px 20px;
 	margin: 0;
-	font-size: 15px;
-	border-radius: 1;
+	font-size: 20px;
+	border-radius: 16px;
 	text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
@@ -263,6 +263,10 @@ header .intro-text {
 }
 /* About Section */
 #vantaggi {
+	padding: 100px 0 10px 0;
+	background: #fafafa;
+}
+#noleggio {
 	padding: 100px 0 10px 0;
 	background: #fafafa;
 }
