@@ -411,6 +411,27 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+/* Superbonus Section */
+#superbonus {
+	padding: 100px 0 10px 0;
+	background: #fff;
+}
+#superbonus h4 {
+	color: #231F20;
+	text-transform: uppercase;
+}
+#superbonus i.fa {
+	font-size: 32px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fafafa;
+	width: 100px;
+	height: 100px;
+	padding: 33px 0;
+	border: 1px solid #231F20;
+	background: #231F20;
+	border-radius: 50%;
+}
 /* Team Section */
 #team {
 	padding: 100px 0;
