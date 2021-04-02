@@ -223,12 +223,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .section-title {
 	padding: 25px 0 25px 0;
 }
-.intro H1 {
+.intro logo {
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.9);
 	margin-top: 50px;
 	line-height: 0.9;
+	font-weight: 400;
+	margin-bottom:10px;
+	display: block;
 }
 .intro .intro-text p {
 	font-size: 18px;
