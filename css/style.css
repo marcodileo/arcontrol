@@ -235,10 +235,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
     margin-bottom: 20px;
 }
 .intro .intro-text p {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 20px;
-	margin-top: 40px;
-	text-transform: uppercase;
 	color: rgba(0,0,0,0.9);
 }
 header .intro-text {
