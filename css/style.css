@@ -198,7 +198,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Home Section */
+/* Intro Section */
 .intro {
 	display: table;
 	width: 100%;
@@ -232,6 +232,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	font-weight: 400;
 	margin-bottom:10px;
 	display: block;
+}
+.intro .intro-text h4 {
+	margin-top: 40px;
+    margin-bottom: 20px;
 }
 .intro .intro-text p {
 	font-size: 18px;
