@@ -233,6 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .intro .intro-text h4 {
 	margin-top: 40px;
     margin-bottom: 20px;
+	font-weight: 600;
 }
 .intro .intro-text p {
 	font-size: 16px;
