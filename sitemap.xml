@@ -6,11 +6,11 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://arcontrol.it/</loc>
-  <lastmod>2019-02-17</lastmod>
+  <lastmod>2021-04-03</lastmod>
 </url>
 <url>
   <loc>http://arcontrol.it/en</loc>
-  <lastmod>2019-02-17</lastmod>
+  <lastmod>2021-04-03</lastmod>
 </url>
 <url>
   <loc>http://arcontrol.it/roma</loc>
@@ -18,11 +18,11 @@
 </url>
 <url>
   <loc>http://arcontrol.it/puglia</loc>
-  <lastmod>2021-04-0</lastmod>
+  <lastmod>2021-04-03</lastmod>
 </url>
 <url>
   <loc>http://arcontrol.it/barletta-andria-trani</loc>
-  <lastmod>2021-04-0</lastmod>
+  <lastmod>2021-04-03</lastmod>
 </url>
 <url>
   <loc>http://arcontrol.it/rimini</loc>
@@ -30,6 +30,18 @@
 </url>
 <url>
   <loc>http://arcontrol.it/rieti</loc>
-  <lastmod>2021-04-0</lastmod>
+  <lastmod>2021-04-03</lastmod>
+</url>
+<url>
+  <loc>http://arcontrol.it/matera</loc>
+  <lastmod>2021-04-03</lastmod>
+</url>
+<url>
+  <loc>http://arcontrol.it/frosinone</loc>
+  <lastmod>2021-04-03</lastmod>
+</url>
+<url>
+  <loc>http://arcontrol.it/pescara</loc>
+  <lastmod>2021-04-03</lastmod>
 </url>
 </urlset>
