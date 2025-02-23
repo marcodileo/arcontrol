@@ -218,7 +218,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .section-title {
 	padding: 25px 0 25px 0;
 }
-.intro .logo {
+.intro logo {
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.9);
@@ -557,7 +557,7 @@ color: #ccc;
 #contact .local ul li {
 	display: inline-block;
 	margin: 0 20px;
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 }
 #contact .social i.fa {
 	font-size: 3rem;
