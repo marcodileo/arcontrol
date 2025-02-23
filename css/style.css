@@ -554,12 +554,12 @@ color: #ccc;
 #contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 #contact .local ul li {
 	display: inline-block;
 	margin: 0 20px;
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 #contact .social i.fa {
 	font-size: 3rem;
