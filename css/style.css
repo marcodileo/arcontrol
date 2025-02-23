@@ -1,10 +1,10 @@
 body, html {
 	font-family: 'Open Sans', sans-serif;
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 	color: rgba(0,0,0,0.5);
-	width: 100% !important;
-	height: 100% !important;
+	width: 100%;
+	height: 100%;
 }
 @font-face {
     font-family: 'code_boldregular';
@@ -55,9 +55,6 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #000;
 }
-ul, ol {
-	list-style: none;
-}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -77,6 +74,7 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
+	list-style: none;
 	webkit-padding: 0;
 	moz-padding: 0;
 }
@@ -220,7 +218,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .section-title {
 	padding: 25px 0 25px 0;
 }
-.intro logo {
+.intro .logo {
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.9);
